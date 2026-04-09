@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP CSP Complete Study Guide – All Terms Included</title>
+    <title>AP CSP Complete Study Guide – All Terms (Final Edition)</title>
     <style>
-        /* Simple, clean styling – no originality, just readability */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.5;
@@ -40,12 +39,18 @@
         th {
             background-color: #f2f2f2;
         }
+        .pro-tip {
+            background-color: #f9f9f9;
+            border-left: 4px solid #2196F3;
+            padding: 10px;
+            margin: 15px 0;
+        }
     </style>
 </head>
 <body>
 
 <h1>📘 AP Computer Science Principles – Complete Study Guide</h1>
-<p><em>Includes all original terms + every missing term identified from the exam.</em></p>
+<p><em>Includes all original terms + previous missing terms + all newly identified concepts from exam review.</em></p>
 
 <hr>
 
@@ -63,9 +68,9 @@
     <li><strong>User feedback:</strong> Input from users that helps developers refine and improve a program.</li>
     <li><strong>Prototype:</strong> An early model of a program used for testing and refining ideas before full implementation.</li>
     <li><strong>Version Control System (VCS):</strong> A tool that helps track and manage changes to code, allowing multiple developers to collaborate.</li>
-    <li><strong>Event-driven programming :</strong> Program execution that waits for user actions (clicks, key presses) to trigger code.</li>
-    <li><strong>User-centered design :</strong> Designing a program by focusing on the needs, wants, and limitations of end users.</li>
-    <li><strong>Development environment (IDE) :</strong> Software that helps write, debug, and run code.</li>
+    <li><strong>Event-driven programming:</strong> Program execution that waits for user actions (clicks, key presses) to trigger code.</li>
+    <li><strong>User-centered design:</strong> Designing a program by focusing on the needs, wants, and limitations of end users.</li>
+    <li><strong>Development environment (IDE):</strong> Software that helps write, debug, and run code.</li>
 </ul>
 
 <h3>Program Function &amp; Behavior</h3>
@@ -103,9 +108,10 @@
     <li><strong>Analog data:</strong> measured continuously &amp; changes smoothly.</li>
     <li><strong>Digital data:</strong> measured digitally and leaves out extra data by simplifying the data collected (form of abstraction).</li>
     <li><strong>Abstraction:</strong> reduces complexity by only focusing on the most important parts &amp; hiding the irrelevant parts from the user.</li>
-    <li><strong>Sampling :</strong> Measuring an analog signal at discrete time intervals to convert it to digital.</li>
-    <li><strong>Sample rate :</strong> Number of samples taken per second (e.g., 44.1 kHz for audio).</li>
-    <li><strong>Bit depth :</strong> Number of bits used per sample (affects precision).</li>
+    <li><strong>Sampling:</strong> Measuring an analog signal at discrete time intervals to convert it to digital.</li>
+    <li><strong>Sample rate:</strong> Number of samples taken per second (e.g., 44.1 kHz for audio).</li>
+    <li><strong>Bit depth:</strong> Number of bits used per sample (affects precision).</li>
+    <li><strong>Round-off error:</strong> When a computer tries to represent a number too precise (like π or 1/3) and rounds due to finite bits – leads to tiny inaccuracies over time.</li>
 </ul>
 
 <h3>Data Compression</h3>
@@ -123,11 +129,18 @@
     <li><strong>Cleaning data:</strong> making data uniform w/o changing meaning (ex: correcting misspelled words).</li>
     <li><strong>Filtering data:</strong> Keep only rows that meet a condition, e.g., age &gt; 18.</li>
     <li><strong>CSV:</strong> Storing tabular data (rows/columns).</li>
-    <li><strong>Correlation :</strong> A relationship between two variables (e.g., ice cream sales and temperature).</li>
-    <li><strong>Causation :</strong> When one variable directly causes a change in another (correlation does not imply causation – tested heavily).</li>
-    <li><strong>Outlier :</strong> A data point that differs significantly from other observations.</li>
-    <li><strong>Data set :</strong> A collection of related data records.</li>
-    <li><strong>Pattern :</strong> A regular or repeated arrangement in data (discovered through data mining).</li>
+    <li><strong>Correlation:</strong> A relationship between two variables (e.g., ice cream sales and temperature).</li>
+    <li><strong>Causation:</strong> When one variable directly causes a change in another (correlation does not imply causation – tested heavily).</li>
+    <li><strong>Outlier:</strong> A data point that differs significantly from other observations.</li>
+    <li><strong>Data set:</strong> A collection of related data records.</li>
+    <li><strong>Pattern:</strong> A regular or repeated arrangement in data (discovered through data mining).</li>
+</ul>
+
+<h3>Big Data Challenges (The "Three V's")</h3>
+<ul>
+    <li><strong>Volume:</strong> Too much data to store on one hard drive.</li>
+    <li><strong>Velocity:</strong> Data coming in too fast to process in real-time.</li>
+    <li><strong>Variety:</strong> Data coming in many different formats (video, text, sensor data).</li>
 </ul>
 
 <hr>
@@ -140,14 +153,17 @@
     <li><strong>Sequencing:</strong> all of the code is executed in the order they are written in.</li>
     <li><strong>Selection:</strong> if statements; have conditions that need to be met for the selection to run.</li>
     <li><strong>Iteration:</strong> "repeat n times" or "repeat until".</li>
-    <li><strong>Heuristic:</strong> An approach to problem-solving that uses a practical method for a sufficient immediate solution.</li>
+    <li><strong>Heuristic:</strong> An approach to problem-solving that uses a practical method for a sufficient immediate solution. <em>Tip: If "perfect solution is impossible" or "would take too long," answer is usually heuristic.</em></li>
     <li><strong>Undecidable problem:</strong> A problem for which no algorithm can provide a correct answer for all cases.</li>
     <li><strong>Binary search:</strong> works by splitting the data set and eliminates 1/2 the data with each round of splitting.</li>
-    <li><strong>Linear search :</strong> Searching a list by checking each element one by one until the target is found.</li>
-    <li><strong>Nested conditional :</strong> An IF statement inside another IF statement.</li>
-    <li><strong>Nested loop :</strong> A loop inside another loop.</li>
-    <li><strong>Infinite loop :</strong> A loop that never terminates (common logic error).</li>
-    <li><strong>Efficiency :</strong> A measure of how many steps or how much memory an algorithm uses (often "reasonable" vs. "unreasonable" time).</li>
+    <li><strong>Linear search:</strong> Searching a list by checking each element one by one until the target is found.</li>
+    <li><strong>Nested conditional:</strong> An IF statement inside another IF statement.</li>
+    <li><strong>Nested loop:</strong> A loop inside another loop.</li>
+    <li><strong>Infinite loop:</strong> A loop that never terminates (common logic error).</li>
+    <li><strong>Efficiency:</strong> A measure of how many steps or how much memory an algorithm uses.
+        <ul><li><strong>Reasonable time:</strong> Polynomial growth (n, n², n log n).</li>
+        <li><strong>Unreasonable time:</strong> Exponential or factorial growth (2ⁿ, n!). Quickly impossible for large inputs.</li></ul>
+    </li>
 </ul>
 
 <h3>Programming Constructs</h3>
@@ -160,20 +176,36 @@
     <li><strong>Parameters:</strong> input variables of a procedure.</li>
     <li><strong>Arguments:</strong> a procedure call with defined values.</li>
     <li><strong>API (Application Programming Interface):</strong> A tool that allows programs to communicate and access data.</li>
-    <li><strong>String :</strong> A sequence of characters.</li>
-    <li><strong>String concatenation :</strong> Joining two or more strings together.</li>
-    <li><strong>Boolean expression :</strong> An expression that evaluates to either TRUE or FALSE.</li>
-    <li><strong>Logical operators :</strong> AND, OR, NOT (see reference sheet).</li>
-    <li><strong>Return value :</strong> The value that a procedure sends back to where it was called (different from DISPLAY).</li>
-    <li><strong>Procedural abstraction :</strong> Giving a procedure a name so you can use it without knowing its internal details.</li>
-    <li><strong>Data abstraction :</strong> Using a list to manage complexity (hiding how individual pieces are stored).</li>
-    <li><strong>Input :</strong> Data provided to a program (from user, file, or sensor).</li>
-    <li><strong>Output :</strong> Data produced by a program (displayed, saved, or sent).</li>
+    <li><strong>String:</strong> A sequence of characters.</li>
+    <li><strong>String concatenation:</strong> Joining two or more strings together.</li>
+    <li><strong>Boolean expression:</strong> An expression that evaluates to either TRUE or FALSE.</li>
+    <li><strong>Logical operators:</strong> AND, OR, NOT (see reference sheet).</li>
+    <li><strong>Return value:</strong> The value that a procedure sends back to where it was called (different from DISPLAY).</li>
+    <li><strong>Procedural abstraction:</strong> Giving a procedure a name so you can use it without knowing its internal details.</li>
+    <li><strong>Data abstraction:</strong> Using a list to manage complexity (hiding how individual pieces are stored).</li>
+    <li><strong>Input:</strong> Data provided to a program (from user, file, or sensor).</li>
+    <li><strong>Output:</strong> Data produced by a program (displayed, saved, or sent).</li>
+</ul>
+
+<h3>Logic Gates &amp; Boolean Algebra</h3>
+<ul>
+    <li><strong>AND:</strong> Both must be true.</li>
+    <li><strong>OR:</strong> At least one must be true.</li>
+    <li><strong>NOT:</strong> Flips the value.</li>
+    <li><strong>De Morgan’s Law:</strong> NOT (A AND B) is NOT the same as (NOT A AND NOT B). Actually, NOT (A AND B) = (NOT A) OR (NOT B). Frequently appears in selection questions.</li>
 </ul>
 
 <hr>
 
 <h2>Unit 4 &amp; Big Idea 4: Computer Systems &amp; Networks</h2>
+
+<h3>Hardware &amp; Low‑Level Concepts</h3>
+<ul>
+    <li><strong>Transistor:</strong> The basic building block of computer hardware; acts as a tiny switch that is either on (1) or off (0).</li>
+    <li><strong>Low‑level language:</strong> (Assembly, Binary) – hard for humans, exactly what the machine understands.</li>
+    <li><strong>High‑level language:</strong> (Python, JavaScript, AP Pseudocode) – easy for humans, farther from the machine.</li>
+    <li><strong>Abstraction hierarchy:</strong> Logic Gates → Chips (Circuits) → Components (CPU/RAM) → Hardware (Laptop/Phone).</li>
+</ul>
 
 <h3>Internet Interconnection</h3>
 <ul>
@@ -182,12 +214,18 @@
     <li><strong>Routing:</strong> the process of finding the best path to deliver information.</li>
     <li><strong>Path:</strong> sequences of connected computing devices (routers) that begin at sender and end at receiver.</li>
     <li><strong>Bandwidth:</strong> the rate of data transfer from one device to another; megabits per second.</li>
+    <li><strong>Latency:</strong> The time delay between sending and receiving data (often tested alongside bandwidth).</li>
     <li><strong>Redundancy:</strong> duplication of things; helps make the internet fault tolerant.</li>
     <li><strong>Fault tolerant:</strong> something can still function even w/ a partial malfunction.</li>
-    <li><strong>Latency :</strong> The time delay between sending and receiving data (often tested alongside bandwidth).</li>
-    <li><strong>Router :</strong> A device that forwards data packets between networks.</li>
-    <li><strong>Scalability :</strong> The ability of a system to handle growing amounts of work by adding resources.</li>
-    <li><strong>Packet switching :</strong> The method of breaking data into packets and sending them independently (core internet design).</li>
+    <li><strong>Router:</strong> A device that forwards data packets between networks.</li>
+    <li><strong>Packet switching:</strong> The method of breaking data into packets and sending them independently (core internet design).</li>
+    <li><strong>Scalability:</strong> The ability of a system to handle growing amounts of work by adding resources.</li>
+    <li><strong>Open protocols:</strong> Protocols (IP, TCP, HTTP) are open and non‑proprietary, so anyone can build devices that connect without paying a license fee.</li>
+    <li><strong>Hierarchy of the Internet:</strong> Organized hierarchically (DNS and IP addresses use hierarchical structure).</li>
+    <li><strong>The Internet vs. The World Wide Web:</strong>
+        <ul><li><strong>Internet:</strong> Physical network of hardware (routers, wires, fiber optics).</li>
+        <li><strong>World Wide Web (WWW):</strong> System of linked pages and files that run on top of the Internet using HTTP.</li></ul>
+    </li>
 </ul>
 
 <h3>Protocols &amp; Addresses</h3>
@@ -199,9 +237,10 @@
     <li><strong>DNS (Domain Name System):</strong> Translates human-readable domain names into IP addresses.</li>
     <li><strong>HTTP:</strong> Protocol used by web browsers to fetch webpages.</li>
     <li><strong>IPv4 vs. IPv6:</strong> IPv4 is 32 bits; IPv6 is 128 bits, created to solve the address shortage.</li>
-    <li><strong>Client-server model :</strong> One device (server) provides services to other devices (clients).</li>
-    <li><strong>Peer-to-peer (P2P) :</strong> Devices communicate directly without a central server.</li>
-    <li><strong>Net neutrality :</strong> The principle that ISPs should treat all data equally (social/ethical tie-in).</li>
+    <li><strong>Client-server model:</strong> One device (server) provides services to other devices (clients).</li>
+    <li><strong>Peer-to-peer (P2P):</strong> Devices communicate directly without a central server.</li>
+    <li><strong>Net neutrality:</strong> The principle that ISPs should treat all data equally (social/ethical tie-in).</li>
+    <li><strong>Digital Certificates &amp; Certificate Authorities (CAs):</strong> Trusted organizations that verify website identity and issue digital certificates to prevent man‑in‑the‑middle attacks.</li>
 </ul>
 
 <h3>Parallel &amp; Distributed Computing</h3>
@@ -210,7 +249,8 @@
         <ul><li>Sequential solution: Takes as long as the sum of all steps: a+b+c.</li></ul>
     </li>
     <li><strong>Parallel computing:</strong> when program is broken into smaller operations and processed at the same time using multiple processors.
-        <ul><li>Speedup: sequential solution time / parallel solution time.</li></ul>
+        <ul><li><strong>Speedup formula:</strong> Sequential time / Parallel time. Example: 100 seconds alone, 25 seconds with 4 processors → Speedup = 4.</li>
+        <li><strong>Amdahl's Law:</strong> A program will never be infinitely fast because some parts must be done sequentially.</li></ul>
     </li>
     <li><strong>Distributed computing:</strong> multiple devices communicate together to run a program.</li>
 </ul>
@@ -221,11 +261,16 @@
 
 <h3>Social &amp; Ethical Concerns</h3>
 <ul>
-    <li><strong>Digital divide:</strong> gaps between those who have access to the internet and those who do not.</li>
-    <li><strong>Computing bias:</strong> computing innovations can reflect existing racial/gender/etc. biases.</li>
+    <li><strong>Digital divide:</strong> gaps between those who have access to the internet and those who do not. <em>Nuance:</em> Not just "having" internet – also about <strong>speed, cost, and geography</strong>.</li>
+    <li><strong>Computing bias:</strong> computing innovations can reflect existing racial/gender/etc. biases.
+        <ul><li><strong>Machine learning bias:</strong> If training data is biased (e.g., only photos of white men), the resulting AI will be biased.</li></ul>
+    </li>
     <li><strong>Crowdsourcing:</strong> getting a large amount of input or information from people on the Internet.</li>
-    <li><strong>Citizen science:</strong> scientific research that the general population helps to conduct.</li>
-    <li><strong>Bias in data collection :</strong> When the way data is gathered systematically favors certain outcomes (e.g., survey sent only to one group).</li>
+    <li><strong>Citizen science:</strong> scientific research that the general population helps to conduct (often via crowdsourcing).</li>
+    <li><strong>Bias in data collection:</strong> When the way data is gathered systematically favors certain outcomes (e.g., survey sent only to one group).</li>
+    <li><strong>Targeted advertising:</strong> Using data (demographics, browsing history) to show specific ads to specific people; raises privacy concerns.</li>
+    <li><strong>Digital sovereignty:</strong> The idea that a country has the right to control the data and internet traffic within its borders.</li>
+    <li><strong>Unintended consequences:</strong> A major theme – computing innovations can have positive intent (e.g., social media connecting people) but negative unintended consequences (e.g., spread of misinformation).</li>
 </ul>
 
 <h3>Intellectual Property</h3>
@@ -233,8 +278,8 @@
     <li><strong>Copyright:</strong> the person who created something determines who uses their creation.</li>
     <li><strong>Creative Commons:</strong> copyright license for creators to give others the ability to use their work.</li>
     <li><strong>Open-sourcing:</strong> work is freely shared, distributed, and modified.</li>
-    <li><strong>Fair use :</strong> A legal doctrine allowing limited use of copyrighted material without permission (for education, criticism, etc.).</li>
-    <li><strong>License :</strong> A legal agreement that specifies how software or creative work can be used.</li>
+    <li><strong>Fair use:</strong> A legal doctrine allowing limited use of copyrighted material without permission (for education, criticism, etc.).</li>
+    <li><strong>License:</strong> A legal agreement that specifies how software or creative work can be used.</li>
 </ul>
 
 <h3>Security &amp; Encryption</h3>
@@ -245,14 +290,14 @@
     <li><strong>Encryption:</strong> encoding data to prevent others from accessing it.</li>
     <li><strong>Symmetric key encryption:</strong> one key for both encrypting &amp; decrypting.</li>
     <li><strong>Public key encryption:</strong> public key to encrypt &amp; private key to decrypt.</li>
-    <li><strong>Virus :</strong> Malware that spreads by inserting itself into other programs.</li>
-    <li><strong>Spyware :</strong> Malware that secretly collects user information.</li>
-    <li><strong>Ransomware :</strong> Malware that locks files and demands payment.</li>
-    <li><strong>Keylogging :</strong> Recording keystrokes to steal passwords.</li>
-    <li><strong>Multi-factor authentication :</strong> Using two or more verification methods (password + text code).</li>
-    <li><strong>SSL/TLS :</strong> Protocols that encrypt web traffic (HTTPS uses this).</li>
-    <li><strong>Cipher :</strong> An algorithm for encrypting and decrypting data.</li>
-    <li><strong>Decryption :</strong> The process of converting encrypted data back to original form.</li>
+    <li><strong>Virus:</strong> Malware that spreads by inserting itself into other programs.</li>
+    <li><strong>Spyware:</strong> Malware that secretly collects user information.</li>
+    <li><strong>Ransomware:</strong> Malware that locks files and demands payment.</li>
+    <li><strong>Keylogging:</strong> Recording keystrokes to steal passwords.</li>
+    <li><strong>Multi-factor authentication:</strong> Using two or more verification methods (password + text code).</li>
+    <li><strong>SSL/TLS:</strong> Protocols that encrypt web traffic (HTTPS uses this).</li>
+    <li><strong>Cipher:</strong> An algorithm for encrypting and decrypting data.</li>
+    <li><strong>Decryption:</strong> The process of converting encrypted data back to original form.</li>
 </ul>
 
 <hr>
@@ -265,6 +310,22 @@
     <li><strong>Turing completeness:</strong> The idea that a programming language can simulate any algorithm.</li>
     <li><strong>Empirical data:</strong> Data collected through observation or experiment.</li>
 </ul>
+
+<hr>
+
+<h2>Pro‑Tips for the Exam</h2>
+<div class="pro-tip">
+    <strong>🤖 Robot questions:</strong> Draw it out. Physically move your pencil on the paper like the robot. Most errors are left vs. right mistakes.
+</div>
+<div class="pro-tip">
+    <strong>⚡ Speedup calculation:</strong> Speedup = Sequential time / Parallel time. Remember Amdahl's Law – you cannot get infinite speedup because some code must run sequentially.
+</div>
+<div class="pro-tip">
+    <strong>🧠 Heuristics:</strong> If the question says "perfect solution is impossible" or "it would take too long to find the best answer," the answer is almost always <strong>heuristic</strong>.
+</div>
+<div class="pro-tip">
+    <strong>📊 Cleaning vs. Filtering:</strong> Cleaning fixes formatting (e.g., "chicago" → "Chicago"). Filtering removes rows that don't meet a condition (e.g., age > 18).
+</div>
 
 <hr>
 
